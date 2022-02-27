@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+         ul a{
+             list-style: none;
+             font-size: 30px;
+             background-color: black;
+             color: antiquewhite;
+             text-align: right;
+             
+             
+           
+         }
+        div p {
+            color: red;
+            background-color: yellow;
+        }
+
+        div>p {
+            background-color: aqua;
+        }
+        h3+p{
+            color: blueviolet;
+            background-color: rgb(218, 66, 28);
+         
+        }     
+     
+       h1~li{
+           background-color: chartreuse;
+       }
+    </Style>
+</head>
+
+<body>
+    <header>
+    <nac>
+        <ul>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Blog</a>
+            <a href>Contacts</a>
+          
+        </ul><hr>
+        
+    </nac> <hr>
+    <h2>Descendant selector</h2>
+    <div>
+        <h1>heading 1 in dev.</h1>
+        <p>pargraph 1 inside the div </p>
+        <p>paragraph 2 inside the div</p>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quis maiores sapiente similique quaerat
+                neque voluptate eligendi, eveniet corporis quibusdam!</p>
+        </section>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, autem!</p>
+            <h3> heading 3 </h3>
+        </div>
+    </div>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ul>
+    <div id="mIN">
+        <h2>Child Selector</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        <code> <p>Lorem ipsum dolor sit amet.</p></code>
+        <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quam quod dolores quis cumque, dolore
+            doloribus pariatur omnis et molestiae libero illo, quaerat, quae reprehenderit consequuntur totam laboriosam
+            rem eos. Dolorum cum accusamus nobis molestiae earum fugiat, quod iure excepturi? Consectetur repellendus
+            corrupti vitae deserunt? Quas amet possimus optio? Dolores fugit ad sed sunt aspernatur unde tempore ipsa
+            exercitationem. Laborum fugiat saepe voluptas vitae dolore nobis in necessitatibus exercitationem veniam?
+        </section>
+    </div>
+    <section>
+        <h3>adjacent selector</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corporis nemo saepe quam minus minima mollitia
+            unde dicta, blanditiis recusandae ut. Autem et perspiciatis quos voluptatem rem officia excepturi eaque?</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a>google.com</a>
+    </section>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        <ul>
+            <h1>General Sibling Selector</h1>
+            <li>item 1</li>
+            <li>item2</li>
+            <li>item 3</li>
+
+            
+        </ul>
+
+</body>
+
+</html>
